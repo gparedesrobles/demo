@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Page Two</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <div *ngFor='let user of users'>
+      <h3>Usuario {{user.name}}</h3>
+      <p> Direccion: {{user.direccion}}</p>
+      <p> Telefono: {{user.telefono}} </p>
+  </div>
+</ion-content>
