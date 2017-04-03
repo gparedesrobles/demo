@@ -21,6 +21,5 @@ export class DemoComponent{
         );
 
     }
-    primeraCadena = 'demo';
             
 }

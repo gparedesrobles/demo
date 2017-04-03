@@ -1,16 +1,19 @@
 <ion-header>
-  <ion-navbar>
+  <ion-navbar color='primary'>
     <button ion-button menuToggle>
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Page Two</ion-title>
+    <ion-title>Page Demo</ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content>
-  <div *ngFor='let user of users'>
-      <h3>Usuario {{user.name}}</h3>
+  <div center text-center>
+    <h3> Lista de "Usuarios" desde Firebase </h3>
+    <div *ngFor='let user of users'>
+      <h3>Usuario {{user.nombre}}</h3>
       <p> Direccion: {{user.direccion}}</p>
       <p> Telefono: {{user.telefono}} </p>
+    </div>
   </div>
 </ion-content>

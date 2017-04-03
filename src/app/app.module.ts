@@ -3,7 +3,6 @@ import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
 import { HttpModule } from '@angular/http';
 
 import { MyApp } from './app.component';
-//import { HomePage } from '../pages/home/home';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -15,7 +14,6 @@ import { DemoComponent } from '../pages/demos/demo.component';
 import { Page1 } from '../pages/page1/page1';
 import { Page2 } from '../pages/page2/page2';
 
-//import {initializeApp,database} from 'firebase';
 
 export const firebaseConfig =  {
   apiKey: "AIzaSyDgedr4WE4qp7AiMEpdKh3hK0lky149urw",
@@ -26,8 +24,6 @@ export const firebaseConfig =  {
   messagingSenderId: "234891404286"
 };
 
-//initializeApp(firebaseConfig);
-//database().ref('institutions/UNMSM').on('value', snapshot => console.log(snapshot.val()));
 
 @NgModule({
   declarations: [
